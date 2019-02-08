@@ -12,7 +12,7 @@ class Dog
   end
 
   def new =(name)
-    @name = name
+    @name 
   end
 
 
