@@ -2,17 +2,19 @@ class Dog
 
   @@all =[]
 
-  def initialize
-
+  def initialize (name)
+    @name =name
     @@all << self
   end
 
   def self.all
-    @@all
+    @@all.each do |i|
+      puts dog.name
+    end
   end
 
   def clear_all
-
+    @@all.clear
   end
 
 end
