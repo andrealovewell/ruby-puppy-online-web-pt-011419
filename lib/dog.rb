@@ -1,4 +1,6 @@
 class Dog
+  
+   attr_accessor :name
 
   @@all =[]
 
@@ -11,7 +13,11 @@ class Dog
     @@all
   end
 
+  def new =(name)
+    @name = name
+  end
 
+  
   def clear_all
 
   end
