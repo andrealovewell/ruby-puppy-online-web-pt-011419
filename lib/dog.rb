@@ -11,11 +11,6 @@ class Dog
     @@all
   end
 
-  def new =(name)
-    @name 
-  end
-
-
   def clear_all
 
   end
